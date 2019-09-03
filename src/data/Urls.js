@@ -1,7 +1,7 @@
 /**
  * For running the app with a local server, use the code below:
  */
-/*
+//*
 import { DataTypes } from './Types';
 
 const protocol = 'http';
@@ -22,7 +22,7 @@ export const authUrl = `${protocol}://${hostname}:${port}/login`;
 /**
  * For running the app with a remote API, use the code below:
  */
-//*
+/*
 import { DataTypes } from './Types';
 
 const protocol = 'https';

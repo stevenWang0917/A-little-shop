@@ -6,6 +6,7 @@ export class ProductsRow extends Component {
         <tr>
             <td>{ this.props.product.id }</td>
             <td>{this.props.product.name}</td>
+            <td>{this.props.product.image}</td>
             <td>{ this.props.product.category }</td>
             <td className="text-right"> ${ this.props.product.price.toFixed(2) } </td>
             <td className="text-center">

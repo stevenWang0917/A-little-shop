@@ -26,7 +26,7 @@ export const productsList = gql`
 export const product = gql`
     query($id: ID!){
         product(id:$id){
-            id, name, description, category, price
+            id, name, image, description, category, price
         }
     }
 `
